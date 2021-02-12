@@ -11,6 +11,8 @@ print ('this file has been changed')
 def add(a, b):
   c = a + b
   return c
-print ("the sum of 14 and 565 is " + add(14, 565))
+s = "the sum of 14 and 565 is "
+sum = add(14, 565)
+print (s + str(sum))
 
   
